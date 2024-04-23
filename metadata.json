@@ -1,0 +1,10 @@
+{
+	"name": "Deluxe",
+	"description": "A minimalist dark mode Q2A theme based on the 'Snowaroo' theme.",
+	"version": "1.0",
+	"date": "2024-04-04",
+	"author": "byTheWay",
+	"author_uri": "https://github.com/byTheWay8",
+	"license": "CC0-1.0",
+	"min_q2a": "1.8"
+}
