@@ -1606,8 +1606,16 @@ textarea#message {
 }
 
 .qa-form-light-button-reshow {
-	background: url(images/reshow-icon.png) no-repeat left center;
-	padding-left: 18px;
+	text-indent: -9999px;
+	border: 1px solid #949400;
+	box-shadow: 0px 0px 14px 2px #949400;
+	background: url(images/reshow-icon.png) no-repeat center;
+	padding: 16px 32px;
+	transition: all ease .3s;
+}
+
+.qa-form-light-button-reshow:hover {
+	background-color: #3b3b00;
 }
 
 .qa-form-light-button-claim {
@@ -1616,8 +1624,17 @@ textarea#message {
 }
 
 .qa-form-light-button-delete {
-	background: url(images/delete-icon.png) no-repeat left center;
-	padding-left: 18px;
+	margin-left: 1rem;
+	text-indent: -9999px;
+	padding: 16px 32px;
+	border: 1px solid #AD0000;
+	box-shadow: 0px 0px 14px 2px #AD0000;
+	transition: all ease .3s;
+	background: url(images/delete-icon.png) no-repeat center;
+}
+
+.qa-form-light-button-delete:hover {
+	background-color: #3f0000;
 }
 
 .qa-form-light-button-approve {
