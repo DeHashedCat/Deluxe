@@ -89,6 +89,10 @@ body {
 	padding: 0;
 }
 
+textarea {
+	height: 8rem;
+}
+
 body, td, input, textarea {
 	font: 14px/1.5 Helvetica, Arial, sans-serif;
 	color: #fff;
@@ -150,7 +154,7 @@ input[type="text"]:focus, input[type="password"]:focus, textarea:focus {
 	transition: box-shadow ease-in-out 0.2s, border ease-in-out 0.2s;
 }
 
-input[type="text"].qam-login-text, input[type="password"], textarea, select {
+input[type="text"].qam-login-text, input[type="password"], select {
 	height: 22px;
 }
 
@@ -165,6 +169,10 @@ input[type="submit"] {
 input::-moz-focus-inner {
 	padding: 0;
 	border: 0;
+}
+
+input#password {
+	height: 2rem;
 }
 
 select {
@@ -1316,11 +1324,11 @@ span.qa-upvote-count-data {
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
-
-textarea#message {
+/*
+textarea#message, textarea#a_content {
 	height: 8rem;
 }
-
+*/
 .qa-form-tall-number {
 	width: 48px;
 	background: #fff;
