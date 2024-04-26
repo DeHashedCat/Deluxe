@@ -2426,9 +2426,10 @@ a.qa-c-item-link:hover {
 
 .qa-c-item-buttons {
 	display: block;
-	position: absolute;
+	position: relative;
 	bottom: 0;
 	right: 0;
+	margin-top: 1rem;
 }
 
 .qa-c-item-buttons .qa-form-light-button {
