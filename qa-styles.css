@@ -2394,7 +2394,7 @@ a.qa-c-item-link:hover {
 }
 
 
-/* height for IE6 */
+/* height for IE6 */ /*comentário inútil*/
 .qa-c-item-avatar {
 	display: inline-block;
 	vertical-align: middle;
