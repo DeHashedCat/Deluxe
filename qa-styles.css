@@ -2492,6 +2492,20 @@ input.qa-form-light-button.qa-form-light-button-reply {
 	background: url(images/reply-icon.png) no-repeat center 0;
 }
 
+input.qa-form-tall-button.qa-form-tall-button-send {
+	float: right;
+	border: 1px solid #3d3d3d;
+	width: 3.9rem;
+	height: 1.7rem;
+	text-indent: -9999px;
+	background: url(images/send.png) no-repeat 1rem 0;
+	transition: all ease .3s;
+}
+
+input.qa-form-tall-button.qa-form-tall-button-send:hover {
+	border: 1px solid #6d6d6d;
+}
+
 /* Related questions and activity count widgets */
 .qa-related-qs {
 	font-size: 14px;
