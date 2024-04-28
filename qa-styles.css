@@ -2136,7 +2136,7 @@ a.qa-browse-cat-link:visited {
 	margin-bottom: 16px;
 }
 
-.qa-a-item-content div a {
+.qa-a-item-content div a, .qa-c-item-content div a {
 	color: #0af;
 }
 
