@@ -2782,6 +2782,7 @@ input.qa-form-tall-button.qa-form-tall-button-send:hover {
 .qa-who-marker-expert:before {
 	margin-right: .2rem;
 	content: url(images/junior-mod.png);
+	vertical-align: bottom;
 }
 
 .qa-who-marker-editor {
@@ -2792,6 +2793,7 @@ input.qa-form-tall-button.qa-form-tall-button-send:hover {
 .qa-who-marker-editor:before {
 	margin-right: .2rem;
 	content: url(images/pleno-mod.png);
+	vertical-align: bottom;
 }
 
 .qa-who-marker-moderator {
@@ -2802,6 +2804,7 @@ input.qa-form-tall-button.qa-form-tall-button-send:hover {
 .qa-who-marker-moderator:before {
 	margin-right: .2rem;
 	content: url(images/senior-mod.png);
+	vertical-align: bottom;
 }
 
 .qa-who-marker-admin {
@@ -2812,6 +2815,7 @@ input.qa-form-tall-button.qa-form-tall-button-send:hover {
 .qa-who-marker-admin:before {
 	margin-right: .2rem;
 	content: url(images/admin.png);
+	vertical-align: bottom;
 }
 
 .qa-avatar-marker {
