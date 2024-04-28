@@ -2074,6 +2074,10 @@ a.qa-browse-cat-link:visited {
 	opacity: 0.5;
 }
 
+.qa-q-view-content.qa-post-content div a {
+	color: #0af;
+}
+
 /* Answer view */
 .qa-a-list-item {
 	background: #121212;
@@ -2492,6 +2496,20 @@ input.qa-form-light-button.qa-form-light-button-reply {
 	background: url(images/reply-icon.png) no-repeat center 0;
 }
 
+input.qa-form-tall-button.qa-form-tall-button-send {
+	float: right;
+	border: 1px solid #3d3d3d;
+	width: 3.9rem;
+	height: 1.7rem;
+	text-indent: -9999px;
+	background: url(images/send.png) no-repeat 1rem 0;
+	transition: all ease .3s;
+}
+
+input.qa-form-tall-button.qa-form-tall-button-send:hover {
+	border: 1px solid #6d6d6d;
+}
+
 /* Related questions and activity count widgets */
 .qa-related-qs {
 	font-size: 14px;
@@ -2762,6 +2780,7 @@ input.qa-form-light-button.qa-form-light-button-reply {
 }
 
 .qa-who-marker-expert:before {
+	margin-right: .2rem;
 	content: url(images/junior-mod.png);
 }
 
@@ -2771,6 +2790,7 @@ input.qa-form-light-button.qa-form-light-button-reply {
 }
 
 .qa-who-marker-editor:before {
+	margin-right: .2rem;
 	content: url(images/pleno-mod.png);
 }
 
@@ -2780,6 +2800,7 @@ input.qa-form-light-button.qa-form-light-button-reply {
 }
 
 .qa-who-marker-moderator:before {
+	margin-right: .2rem;
 	content: url(images/senior-mod.png);
 }
 
@@ -2789,6 +2810,7 @@ input.qa-form-light-button.qa-form-light-button-reply {
 }
 
 .qa-who-marker-admin:before {
+	margin-right: .2rem;
 	content: url(images/admin.png);
 }
 
