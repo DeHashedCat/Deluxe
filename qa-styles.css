@@ -2074,6 +2074,10 @@ a.qa-browse-cat-link:visited {
 	opacity: 0.5;
 }
 
+.qa-q-view-content.qa-post-content div a {
+	color: #0af;
+}
+
 /* Answer view */
 .qa-a-list-item {
 	background: #121212;
