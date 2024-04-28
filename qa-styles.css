@@ -2484,6 +2484,8 @@ a.qa-c-item-link:hover {
 	font-size: 10px;
 	padding: 0;
 	text-indent: -9999px;
+	border: 0px;
+	box-shadow: none;
 }
 
 /* Related questions and activity count widgets */
