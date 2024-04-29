@@ -2182,6 +2182,10 @@ a.qa-browse-cat-link:visited {
 	margin: 24px 0 0;
 }
 
+.qa-a-list-item-selected .qa-a-item-c-list {
+	border-top: 1px solid #069;
+}
+
 /* Answer selection */
 .qa-a-selection {
 	position: absolute;
@@ -2249,6 +2253,10 @@ a.qa-browse-cat-link:visited {
 
 .qa-c-list-item:nth-child(odd) {
 	background: #121212;
+}
+
+.qa-a-list-item-selected .qa-c-list-item {
+	background-color: transparent;
 }
 
 .qa-c-list-item:last-child {
