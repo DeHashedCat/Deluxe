@@ -1559,7 +1559,6 @@ textarea#message, textarea#a_content {
 	border: 0;
 	height: 24px;
 	cursor: pointer;
-	margin-right: 6px;
 	font-size: 12px;
 	text-align: left;
 	overflow: visible;
@@ -1581,6 +1580,20 @@ textarea#message, textarea#a_content {
 	padding-left: 18px;
 }
 
+input.qa-form-light-button-retagcat {
+	margin-right: 1rem;
+	text-indent: -9999px;
+	padding: 16px 32px;
+	border: 1px solid #fff;
+	box-shadow: 0px 0px 14px 2px #fff;
+	background: url(images/recategorize-icon.png) no-repeat center;
+	transition: all ease .3s;
+}
+
+input.qa-form-light-button-retagcat:hover {
+	background-color: #424242;
+}
+
 .qa-form-light-button-flag {
 	background: url(images/flag-icon.png) no-repeat left center;
 	padding-left: 18px;
@@ -1589,6 +1602,10 @@ textarea#message, textarea#a_content {
 .qa-form-light-button-unflag, .qa-form-light-button-clearflags {
 	background: url(images/unflag-icon.png) no-repeat left center;
 	padding-left: 18px;
+}
+
+.qa-form-light-button-clearflags {
+	margin-right: .5rem;
 }
 
 .qa-form-light-button-hide {
@@ -2038,6 +2055,17 @@ a.qa-browse-cat-link:visited {
 
 .qa-q-view-buttons input {
 	font-size: 14px;
+	margin-right: .5rem;
+}
+
+.qa-a-item-buttons input {
+	font-size: 14px;
+	margin-right: .5rem;
+}
+
+.qa-c-item-buttons input {
+	font-size: 14px;
+	margin-right: .5rem;
 }
 
 .qa-q-view-c-list {
