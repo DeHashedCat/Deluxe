@@ -2060,6 +2060,15 @@ a.qa-browse-cat-link:visited {
 
 .qa-q-view-buttons input {
 	font-size: 14px;
+	margin-right: .5rem;
+}
+
+input.qa-form-light-button.qa-form-light-button-retagcat {
+	margin-right: 1rem;
+}
+
+input.qa-form-light-button.qa-form-light-button-reject {
+	margin-left: .5rem;
 }
 
 .qa-a-item-buttons input {
