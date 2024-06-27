@@ -11,11 +11,6 @@
 
 /* Global CSS */
 
-@font-face {
-	font-family: "Lora-Italic";
-	src: url(fonts/Lora-Italic-VariableFont_wght.ttf);
-}
-
 .clearfix:after,
 .qam-login-group:after,
 .qa-header:after,
@@ -239,16 +234,11 @@ blockquote {
 	color: #fff;
 	position: relative;
 	border-left: .3rem solid #069;
-	font-family: "Lora-Italic";
 }
 
 blockquote p {
 	margin: 0;
 	padding: 0;
-}
-
-blockquote p spam {
-	font: "Lora-Italic";
 }
 
 img {
@@ -1584,16 +1574,6 @@ textarea#message, textarea#a_content {
 	padding-left: 18px;
 }
 
-input.qa-form-light-button-retagcat {
-	margin-right: 1rem;
-	text-indent: -9999px;
-	padding: 16px 32px;
-	border: 1px solid #fff;
-	box-shadow: 0px 0px 14px 2px #fff;
-	background: url(images/recategorize-icon.png) no-repeat center;
-	transition: all ease .3s;
-}
-
 input.qa-form-light-button-retagcat:hover {
 	background-color: #424242;
 }
@@ -2063,10 +2043,6 @@ a.qa-browse-cat-link:visited {
 	margin-right: .5rem;
 }
 
-input.qa-form-light-button.qa-form-light-button-retagcat {
-	margin-right: 1rem;
-}
-
 input.qa-form-light-button.qa-form-light-button-reject {
 	margin-left: .5rem;
 }
@@ -2117,6 +2093,10 @@ input.qa-form-light-button.qa-form-light-button-reject {
 
 .qa-q-view-content.qa-post-content div a {
 	color: #0af;
+}
+
+.qa-q-view-content.qa-post-content div a:hover, .qa-a-item-content div a:hover, .qa-c-item-content div a:hover {
+	letter-spacing: 0px;
 }
 
 /* Answer view */
