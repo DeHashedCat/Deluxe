@@ -368,6 +368,22 @@ input[type="submit"].qa-search-button:hover {
 	width: 64px;
 }
 
+#level .qa-form-wide-static a:first-child {
+	background: transparent url('images/mail-white.png') no-repeat center;
+	padding: 5px 30px;
+	border: 1px solid #4d4d4d;
+	display: inline-block;
+	text-indent: -9999px;
+	border-radius: 4px;
+	margin-left: 1rem;
+	transition: all ease .3s;
+}
+
+#level .qa-form-wide-static a:first-child:hover {
+	background-color: rgb(28, 28, 28);
+	box-shadow: 0px 0px 14px 2px #383838;
+}
+
 span.qa-form-wide-static a {
 	color: #0af;
 }
