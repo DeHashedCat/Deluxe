@@ -283,6 +283,11 @@ p {
 .qam-login-form {
 	float: left;
 }
+
+form.qam-login-form {
+	margin-top: 10px;
+}
+
 .qam-login-text, .qa-search-field {
 	width: 165px;
 	margin-right: 5px;
@@ -436,7 +441,7 @@ span.qa-form-wide-static a {
 	padding: 9px 5px;
 	height: 24px;
 	display: inline-block;
-	margin-top: -6px;
+	margin-top: 4px;
 	line-height: 26px;
 }
 
