@@ -85,7 +85,7 @@ body {
 }
 
 textarea {
-	height: 8rem;
+	height: 16rem;
 }
 
 body, td, input, textarea {
@@ -1335,11 +1335,11 @@ span.qa-upvote-count-data {
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
-/*
-textarea#message, textarea#a_content {
+
+textarea#message {
 	height: 8rem;
 }
-*/
+
 .qa-form-tall-number {
 	width: 48px;
 	background: #fff;
