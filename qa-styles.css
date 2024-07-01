@@ -1460,7 +1460,12 @@ textarea#message {
 	transition: all ease .3s;
 }
 
-.qa-form-wide-buttons .qa-form-wide-button-account:hover, .qa-form-wide-buttons .qa-form-wide-button-edit:hover {
+.qa-form-wide-buttons .qa-form-wide-button-account:hover,
+.qa-form-wide-buttons .qa-form-wide-button-edit:hover,
+.qa-form-wide-buttons .qa-form-wide-button-block:hover,
+.qa-form-wide-button.qa-form-wide-button-unblock:hover,
+.qa-form-wide-button.qa-form-wide-button-hideall:hover,
+.qa-form-wide-button.qa-form-wide-button-delete:hover {
 	border: 1px solid #6d6d6d;
 }
 
@@ -1473,8 +1478,31 @@ textarea#message {
 	transition: all ease .3s;
 }
 
-.qa-form-wide-buttons .qa-form-wide-button-block:hover {
-	border: 1px solid #6d6d6d;
+input.qa-form-wide-button.qa-form-wide-button-unblock {
+	text-indent: -9999px;
+	width: 3.9rem;
+	height: 2.2rem;
+	border: 1px solid #3d3d3d;
+	background: url(images/unblock-user.png) no-repeat 1rem 0;
+	transition: all ease .3s;
+}
+
+input.qa-form-wide-button.qa-form-wide-button-hideall {
+	text-indent: -9999px;
+	width: 3.9rem;
+	height: 2.2rem;
+	border: 1px solid #3d3d3d;
+	background: url(images/hide-user.png) no-repeat 1rem 0;
+	transition: all ease .3s;
+}
+
+input.qa-form-wide-button.qa-form-wide-button-delete {
+	text-indent: -9999px;
+	width: 3.9rem;
+	height: 2.2rem;
+	border: 1px solid #3d3d3d;
+	background: url(images/delete-user.png) no-repeat 1rem 0;
+	transition: all ease .3s;
 }
 
 /* Standard form (wide version) */
