@@ -11,11 +11,6 @@
 
 /* Global CSS */
 
-@font-face {
-	font-family: "Lora-Italic";
-	src: url(fonts/Lora-Italic-VariableFont_wght.ttf);
-}
-
 .clearfix:after,
 .qam-login-group:after,
 .qa-header:after,
@@ -90,7 +85,7 @@ body {
 }
 
 textarea {
-	height: 8rem;
+	height: 16rem;
 }
 
 body, td, input, textarea {
@@ -129,6 +124,7 @@ input[type="text"].qa-search-field {
 	height: 22px;
 	background-color:transparent;
 	border-color:#069;
+	margin-top: 10px;
 }
 
 input[type="text"], input[type="password"], textarea, select {
@@ -239,16 +235,11 @@ blockquote {
 	color: #fff;
 	position: relative;
 	border-left: .3rem solid #069;
-	font-family: "Lora-Italic";
 }
 
 blockquote p {
 	margin: 0;
 	padding: 0;
-}
-
-blockquote p spam {
-	font: "Lora-Italic";
 }
 
 img {
@@ -292,6 +283,11 @@ p {
 .qam-login-form {
 	float: left;
 }
+
+form.qam-login-form {
+	margin-top: 10px;
+}
+
 .qam-login-text, .qa-search-field {
 	width: 165px;
 	margin-right: 5px;
@@ -378,6 +374,22 @@ input[type="submit"].qa-search-button:hover {
 	width: 64px;
 }
 
+#level .qa-form-wide-static a:first-child {
+	background: transparent url('images/mail-white.png') no-repeat center;
+	padding: 5px 30px;
+	border: 1px solid #4d4d4d;
+	display: inline-block;
+	text-indent: -9999px;
+	border-radius: 4px;
+	margin-left: 1rem;
+	transition: all ease .3s;
+}
+
+#level .qa-form-wide-static a:first-child:hover {
+	background-color: rgb(28, 28, 28);
+	box-shadow: 0px 0px 14px 2px #383838;
+}
+
 span.qa-form-wide-static a {
 	color: #0af;
 }
@@ -429,7 +441,7 @@ span.qa-form-wide-static a {
 	padding: 9px 5px;
 	height: 24px;
 	display: inline-block;
-	margin-top: -6px;
+	margin-top: 4px;
 	line-height: 26px;
 }
 
@@ -1328,11 +1340,11 @@ span.qa-upvote-count-data {
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
-/*
-textarea#message, textarea#a_content {
+
+textarea#message {
 	height: 8rem;
 }
-*/
+
 .qa-form-tall-number {
 	width: 48px;
 	background: #fff;
@@ -1448,7 +1460,12 @@ textarea#message, textarea#a_content {
 	transition: all ease .3s;
 }
 
-.qa-form-wide-buttons .qa-form-wide-button-account:hover, .qa-form-wide-buttons .qa-form-wide-button-edit:hover {
+.qa-form-wide-buttons .qa-form-wide-button-account:hover,
+.qa-form-wide-buttons .qa-form-wide-button-edit:hover,
+.qa-form-wide-buttons .qa-form-wide-button-block:hover,
+.qa-form-wide-button.qa-form-wide-button-unblock:hover,
+.qa-form-wide-button.qa-form-wide-button-hideall:hover,
+.qa-form-wide-button.qa-form-wide-button-delete:hover {
 	border: 1px solid #6d6d6d;
 }
 
@@ -1461,8 +1478,31 @@ textarea#message, textarea#a_content {
 	transition: all ease .3s;
 }
 
-.qa-form-wide-buttons .qa-form-wide-button-block:hover {
-	border: 1px solid #6d6d6d;
+input.qa-form-wide-button.qa-form-wide-button-unblock {
+	text-indent: -9999px;
+	width: 3.9rem;
+	height: 2.2rem;
+	border: 1px solid #3d3d3d;
+	background: url(images/unblock-user.png) no-repeat 1rem 0;
+	transition: all ease .3s;
+}
+
+input.qa-form-wide-button.qa-form-wide-button-hideall {
+	text-indent: -9999px;
+	width: 3.9rem;
+	height: 2.2rem;
+	border: 1px solid #3d3d3d;
+	background: url(images/hide-user.png) no-repeat 1rem 0;
+	transition: all ease .3s;
+}
+
+input.qa-form-wide-button.qa-form-wide-button-delete {
+	text-indent: -9999px;
+	width: 3.9rem;
+	height: 2.2rem;
+	border: 1px solid #3d3d3d;
+	background: url(images/delete-user.png) no-repeat 1rem 0;
+	transition: all ease .3s;
 }
 
 /* Standard form (wide version) */
@@ -1582,16 +1622,6 @@ textarea#message, textarea#a_content {
 .qa-form-light-button-edit, .qa-form-light-button-retagcat {
 	background: url(images/edit-icon.png) no-repeat left center;
 	padding-left: 18px;
-}
-
-input.qa-form-light-button-retagcat {
-	margin-right: 1rem;
-	text-indent: -9999px;
-	padding: 16px 32px;
-	border: 1px solid #fff;
-	box-shadow: 0px 0px 14px 2px #fff;
-	background: url(images/recategorize-icon.png) no-repeat center;
-	transition: all ease .3s;
 }
 
 input.qa-form-light-button-retagcat:hover {
@@ -2063,10 +2093,6 @@ a.qa-browse-cat-link:visited {
 	margin-right: .5rem;
 }
 
-input.qa-form-light-button.qa-form-light-button-retagcat {
-	margin-right: 1rem;
-}
-
 input.qa-form-light-button.qa-form-light-button-reject {
 	margin-left: .5rem;
 }
@@ -2117,6 +2143,10 @@ input.qa-form-light-button.qa-form-light-button-reject {
 
 .qa-q-view-content.qa-post-content div a {
 	color: #0af;
+}
+
+.qa-q-view-content.qa-post-content div a:hover, .qa-a-item-content div a:hover, .qa-c-item-content div a:hover {
+	letter-spacing: 0px;
 }
 
 /* Answer view */
