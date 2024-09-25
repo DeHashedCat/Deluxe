@@ -212,11 +212,11 @@ h2 {
 	color: #fff;
 	padding: 5px 10px !important;
 	clear: both;
-	background: #101010;
+	background: #121212;
 	font-family: Arial,Helvetica,sans-serif;
 	font-weight: 700;
 	border-radius: 10px;
-	box-shadow: 0 -25px 35px -25px #069 inset;
+	box-shadow: 0 -25px 10px -25px #069 inset;
 }
 
 h3 {
@@ -568,7 +568,7 @@ div.header-banner {
 }
 
 .qa-nav-main-link {
-	color: #a2a2a2 !important;
+	color: #b8b8b8 !important;
 	display: block;
 	font-weight: 700;
 	padding: 7px 9px;
@@ -577,6 +577,17 @@ div.header-banner {
 	-o-transition: all ease-in-out 0.5s;
 	-ms-transition: all ease-in-out 0.5s;
 	transition: all ease-in-out 0.5s;
+}
+
+.qa-nav-main-ask a {
+	text-shadow: #0af 0px 0px 5px;
+	color: #fff !important;
+}
+
+
+.qa-nav-main-ask a:hover {
+	text-shadow: #0af 0px 0px 8px;
+	color: #fff !important;
 }
 
 .qa-nav-main-link:hover, .qa-nav-main-selected {
@@ -2202,6 +2213,15 @@ input.qa-form-light-button.qa-form-light-button-reject {
 	padding-left: 10px;
 }
 
+.qa-q-item-content td,
+.qa-a-item-content td,
+.qa-c-item-content td {
+	padding: .5rem;
+	font-style: italic;
+	border: 1px solid #303030;
+	color: #c8c8c8;
+}
+
 /* inline-block for IE */
 .qa-a-item-content {
 	margin-bottom: 16px;
@@ -2862,7 +2882,7 @@ input.qa-form-tall-button.qa-form-tall-button-send:hover {
 .qa-who-marker-expert:before {
 	margin-right: .2rem;
 	content: url(images/junior-mod.png);
-	vertical-align: bottom;
+	vertical-align: -50%;
 }
 
 .qa-who-marker-editor {
@@ -2873,7 +2893,7 @@ input.qa-form-tall-button.qa-form-tall-button-send:hover {
 .qa-who-marker-editor:before {
 	margin-right: .2rem;
 	content: url(images/pleno-mod.png);
-	vertical-align: bottom;
+	vertical-align: -50%;
 }
 
 .qa-who-marker-moderator {
@@ -2884,7 +2904,7 @@ input.qa-form-tall-button.qa-form-tall-button-send:hover {
 .qa-who-marker-moderator:before {
 	margin-right: .2rem;
 	content: url(images/senior-mod.png);
-	vertical-align: bottom;
+	vertical-align: -50%;
 }
 
 .qa-who-marker-admin {
@@ -2895,7 +2915,7 @@ input.qa-form-tall-button.qa-form-tall-button-send:hover {
 .qa-who-marker-admin:before {
 	margin-right: .2rem;
 	content: url(images/admin.png);
-	vertical-align: bottom;
+	vertical-align: -50%;
 }
 
 .qa-avatar-marker {
