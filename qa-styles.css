@@ -2213,7 +2213,7 @@ input.qa-form-light-button.qa-form-light-button-reject {
 	padding-left: 10px;
 }
 
-.qa-q-item-content td,
+.qa-q-view-content td,
 .qa-a-item-content td,
 .qa-c-item-content td {
 	padding: .5rem;
@@ -2445,10 +2445,6 @@ a.qa-c-item-link:hover {
 
 .qa-vote-count.qa-vote-count-net {
 	margin-top: 1rem;
-}
-
-.cke_dialog_ui_input_text input[type="text"] {
-	color: #000;
 }
 
 .qa-c-list-item .qa-netvote-count-data {
