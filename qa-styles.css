@@ -1071,6 +1071,7 @@ span.qa-upvote-count-data {
 	border: 1px solid #069;
 	box-shadow: 0px 0px 14px 2px #069;
 	font-weight: bolder;
+	margin-bottom: 1.5rem;
 }
 
 .qa-feed {
@@ -1136,6 +1137,7 @@ span.qa-upvote-count-data {
 	border: 1px solid #069;
 	background: transparent;
 	box-shadow: 0px 0px 14px 2px #069;
+	margin-bottom: 1.5rem;
 }
 
 .qa-sidebar,
